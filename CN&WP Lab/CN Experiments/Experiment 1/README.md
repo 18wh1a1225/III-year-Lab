@@ -1,10 +1,10 @@
-#Experiment 1
+# Experiment 1
 
-##Aim of Experiment
+## Aim of Experiment
 To impliment data link layer framing such as 
 i.character count ii.character stuffing iii.bit stuffing
  
-###Procedure
+### Procedure
 1.
 2.
 3.
