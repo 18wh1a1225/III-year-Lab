@@ -9,4 +9,4 @@ i.character count ii.character stuffing iii.bit stuffing
 2.
 3.
 
-![output](Screenshot 2020-08-06 at 3.10.38 PM)
+![output](Screenshot_2020-08-06_at_3.10.38_PM)
