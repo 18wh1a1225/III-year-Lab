@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			.col_1 {
+				margin: auto;
+				width: 60%;
+				border: 3px solid black;
+				padding: 10px;
+			}
+			.button {
+				background-color: grey;
+				border: none;
+				color: white;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 4px 2px;
+				cursor: pointer;
+				width: 120px;
+				height: 30px;
+			}
+		</style>
+		<title></title>
+	</head>
+	<body>
+	    <div class="row">
+	    
+		<div class="col_1" id = "Register">
+		    <h2>Register Form</h2>
+			<label for="fname">First name:</label>
+			<input type="text" id="fname" name="fname"><br><br>
+			<label for="lname">Last name:</label>
+			<input type="text" id="lname" name="lname"><br><br>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email"><br><br>
+			<label for="mobile">Mobile Number:</label>
+			<input type="text" id="mobile" name="mobile"><br><br>
+			Gender:
+			<input type="radio" name="gender" value="male"> Male
+			<input type="radio" name="gender" value="female"> Female<br><br>
+			Hobbies:
+			<input type="checkbox" name="gender" value="male"> Singing
+			<input type="checkbox" name="gender" value="male"> Painting
+			<input type="checkbox" name="gender" value="male"> Dancing<br><br>
+			<label for="address">Address:</label>
+			<input type="text" id="address" name="address"><br><br>
+			<label for="birthday">Date of Birth:</label>
+			<input type="date" id="birthday" name="birthday"><br><br>
+			Upload Image:<input type="file" id="img" name="img" accept="image/*"><br><br>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password"><br><br>
+			<label for="confirmpassword">Confirm Password:</label>
+			<input type="password" id="confirmpassword" name="password"><br><br>
+			
+			
+			<input type="submit" class="button">
+		</div>
+		</div>
+	</body>
+</html>
